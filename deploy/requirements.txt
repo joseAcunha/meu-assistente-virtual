@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-openai
+pip install langchain-tools
+openai
+faiss-cpu
+fastapi
+uvicorn
+python-dotenv
+tiktoken
+pydantic
+markdown

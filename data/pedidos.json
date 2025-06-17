@@ -1,0 +1,43 @@
+[
+  {
+    "pedido_id": "12345",
+    "status": "Em trânsito",
+    "produtos": [
+      {"id": "PROD001", "nome": "Notebook Dell Inspiron 15", "quantidade": 1}
+    ],
+    "data_compra": "2024-06-10",
+    "previsao_entrega": "2024-06-20",
+    "endereco_entrega": "Rua das Flores, 123 - Centro, São Paulo - SP"
+  },
+  {
+    "pedido_id": "67890",
+    "status": "Entregue",
+    "produtos": [
+      {"id": "PROD002", "nome": "Smartphone Samsung Galaxy A54", "quantidade": 1},
+      {"id": "PROD004", "nome": "Fone de Ouvido Bluetooth JBL Tune 510BT", "quantidade": 1}
+    ],
+    "data_compra": "2024-05-01",
+    "data_entrega": "2024-05-05",
+    "endereco_entrega": "Avenida Brasil, 456 - Bairro Novo, Rio de Janeiro - RJ"
+  },
+  {
+    "pedido_id": "11223",
+    "status": "Processando",
+    "produtos": [
+      {"id": "PROD003", "nome": "Smart TV LG 50 Polegadas 4K", "quantidade": 1}
+    ],
+    "data_compra": "2024-06-15",
+    "previsao_entrega": "2024-06-25",
+    "endereco_entrega": "Praça da Matriz, 789 - Centro, Porto Alegre - RS"
+  },
+  {
+    "pedido_id": "44556",
+    "status": "Cancelado",
+    "produtos": [
+      {"id": "PROD006", "nome": "Livro 'O Senhor dos Anéis'", "quantidade": 1}
+    ],
+    "data_compra": "2024-06-01",
+    "data_cancelamento": "2024-06-02",
+    "motivo_cancelamento": "Cliente solicitou o cancelamento"
+  }
+]

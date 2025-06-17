@@ -1,0 +1,106 @@
+[
+  {
+    "id": "PROD001",
+    "nome": "Notebook Dell Inspiron 15",
+    "categoria": "Eletrônicos",
+    "preco": 2899.99,
+    "descricao": "Notebook ideal para trabalho, estudos e tarefas do dia a dia. Processador Intel i5, 8GB RAM, SSD 256GB.",
+    "especificacoes": {
+      "tela": "15.6 polegadas",
+      "processador": "Intel i5 11th Gen",
+      "memoria": "8GB RAM",
+      "armazenamento": "256GB SSD"
+    },
+    "disponivel": true
+  },
+  {
+    "id": "PROD002",
+    "nome": "Smartphone Samsung Galaxy A54",
+    "categoria": "Eletrônicos",
+    "preco": 1499.00,
+    "descricao": "Celular Android com câmera de alta resolução, bateria de longa duração e tela Super AMOLED.",
+    "especificacoes": {
+      "tela": "6.4 polegadas",
+      "processador": "Exynos 1380",
+      "memoria": "6GB RAM",
+      "armazenamento": "128GB"
+    },
+    "disponivel": true
+  },
+  {
+    "id": "PROD003",
+    "nome": "Smart TV LG 50 Polegadas 4K",
+    "categoria": "Eletrônicos",
+    "preco": 2500.00,
+    "descricao": "TV 4K com WebOS, inteligência artificial ThinQ AI e design elegante. Perfeita para filmes e séries.",
+    "especificacoes": {
+      "tela": "50 polegadas",
+      "resolucao": "4K UHD",
+      "sistema_operacional": "WebOS",
+      "conectividade": "Wi-Fi, Bluetooth"
+    },
+    "disponivel": true
+  },
+  {
+    "id": "PROD004",
+    "nome": "Fone de Ouvido Bluetooth JBL Tune 510BT",
+    "categoria": "Eletrônicos",
+    "preco": 199.90,
+    "descricao": "Fone de ouvido on-ear sem fio com som Pure Bass e até 40h de bateria. Leve e confortável.",
+    "especificacoes": {
+      "tipo": "On-ear",
+      "conectividade": "Bluetooth",
+      "bateria": "40 horas"
+    },
+    "disponivel": true
+  },
+  {
+    "id": "PROD005",
+    "nome": "Micro-ondas Electrolux 20L",
+    "categoria": "Eletrodomésticos",
+    "preco": 549.99,
+    "descricao": "Micro-ondas compacto e eficiente para sua cozinha. Função tira odor e menu descongelar.",
+    "especificacoes": {
+      "capacidade": "20 Litros",
+      "potencia": "700W"
+    },
+    "disponivel": true
+  },
+  {
+    "id": "PROD006",
+    "nome": "Livro 'O Senhor dos Anéis'",
+    "categoria": "Livros",
+    "preco": 89.90,
+    "descricao": "Clássico da literatura fantástica, trilogia completa em um volume.",
+    "especificacoes": {
+      "autor": "J.R.R. Tolkien",
+      "genero": "Fantasia"
+    },
+    "disponivel": true
+  },
+  {
+    "id": "PROD007",
+    "nome": "Câmera Digital Canon EOS Rebel T7",
+    "categoria": "Eletrônicos",
+    "preco": 3200.00,
+    "descricao": "Câmera DSLR para iniciantes e entusiastas, com sensor de 24.1MP e Wi-Fi integrado.",
+    "especificacoes": {
+      "sensor": "24.1MP APS-C CMOS",
+      "gravacao_video": "Full HD",
+      "conectividade": "Wi-Fi, NFC"
+    },
+    "disponivel": true
+  },
+  {
+    "id": "PROD008",
+    "nome": "Cafeteira Nespresso Essenza Mini",
+    "categoria": "Eletrodomésticos",
+    "preco": 399.00,
+    "descricao": "Cafeteira compacta e fácil de usar, prepara cafés expressos e lungos com um toque.",
+    "especificacoes": {
+      "tipo": "Cápsulas",
+      "pressao": "19 bar"
+    },
+    "disponivel": true
+  }
+]

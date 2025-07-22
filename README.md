@@ -38,18 +38,67 @@ Um assistente virtual inteligente desenvolvido com FastAPI e LangChain, projetad
 
 ---
 
-## ⚙️ Configuração do Ambiente
-
-Siga os passos abaixo para configurar e executar o projeto em sua máquina local.
+## ⚙️ Como rodar o projeto (Passo a Passo)
 
 ### Pré-requisitos
 
-* **Python 3.9+** (Recomendado Python 3.10 ou superior)
-* **Git Bash** (No Windows, para melhor experiência com comandos de terminal)
-* **Chave da API OpenAI:** Você precisará de uma chave de API para o OpenAI. Obtenha uma em [platform.openai.com](https://platform.openai.com/).
+- **Python 3.9+** (Recomendado Python 3.10 ou superior)
+- **Chave da API OpenAI** (obtenha em https://platform.openai.com/)
 
-### 1. Clonar o Repositório
+### 1. Clone o repositório
 
 ```bash
-git clone [https://github.com/joseAcunha/meu-assistente-virtual.git](https://github.com/joseAcunha/meu-assistente-virtual.git)
+git clone https://github.com/joseAcunha/meu-assistente-virtual.git
 cd meu-assistente-virtual
+```
+
+### 2. Crie e ative um ambiente virtual (recomendado)
+
+No Windows (PowerShell):
+```powershell
+python -m venv venv
+.\venv\Scripts\activate
+```
+No Linux/Mac:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Instale as dependências
+
+```bash
+pip install -r deploy/requirements.txt
+```
+
+### 4. Configure as variáveis de ambiente
+
+Crie um arquivo `.env` na raiz do projeto (ou dentro da pasta `src/`), com o seguinte conteúdo:
+
+```
+OPENAI_API_KEY=sua_chave_openai_aqui
+```
+
+### 5. Rode o backend (API FastAPI)
+
+```bash
+uvicorn src.api:app --reload
+```
+Acesse http://127.0.0.1:8000/docs para ver a documentação interativa da API.
+
+### 6. Rode o frontend (interface web)
+
+Basta abrir o arquivo `frontend/index.html` no seu navegador.
+
+> **Dica:** O frontend já está configurado para se comunicar com o backend em `http://127.0.0.1:8000`.
+
+---
+
+## 🛠️ Dicas de uso
+- O chat aceita perguntas sobre produtos, políticas, pedidos (use o ID do pedido, ex: #12345) e recomendações.
+- Se encontrar algum erro, verifique se a chave da OpenAI está correta e se o backend está rodando.
+
+---
+
+## 📄 Licença
+MIT
